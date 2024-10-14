@@ -58,11 +58,19 @@ def inverse(a):
     pass
 
 
-# 13. Tri la liste
+# 13. Retourne une version triée de la liste
 def tri(l):
     pass
 
 
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
+    pass
+
+# 15. Retourne la plus grande valeur de la liste
+def maximum(l):
+    pass
+
+# 16. Retourne le logarithme (en base de 10) de la valeur
+def logarithme(a):
     pass
