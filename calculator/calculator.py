@@ -1,6 +1,6 @@
 # 1. Addition basique
 def addition(a, b):
-    return a + b
+    pass
 
 
 # 2. Soustraction basique
