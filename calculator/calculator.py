@@ -62,13 +62,15 @@ def inverse(a):
 
 
 # 13. Retourne une version triée de la liste
-def tri(l):
-    pass
-
+def tri(l): 
+    return sorted(l)
 
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
-    pass
+    fact = 1
+    for k in range(1, a+1):
+        fact = fact*k
+    return fact
 
 # 15. Retourne la plus grande valeur de la liste
 def maximum(l):
