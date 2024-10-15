@@ -15,8 +15,7 @@ def multiplication(a, b):
 
 # 4. Division basique
 def division(a, b):
-    x = a / b
-    return x
+    return a / b
 
 
 # 5. Quotient de la division euclidienne (ou division entière)
@@ -45,9 +44,8 @@ def racine_carre(a):
 
 
 # 10. Retourne la somme des éléments de la liste
-def somme_liste(l):
-    x = sum(l)
-    return x
+def somme_liste(l): 
+    return sum(l)
 
 
 # 11. Retourne a puissance b
