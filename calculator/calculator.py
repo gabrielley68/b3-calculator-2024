@@ -20,7 +20,7 @@ def division(a, b):
 
 # 5. Quotient de la division euclidienne (ou division entière)
 def quotient(a, b):
-    pass
+    return a // b
 
 
 # 6. Reste de la division euclidienne
@@ -35,7 +35,7 @@ def valeur_absolue(a):
 
 # 8. Retourne la valeur au carré
 def carre(a):
-    pass
+    return a * a
 
 
 # 9. Retourne la racine carré de la valeur
