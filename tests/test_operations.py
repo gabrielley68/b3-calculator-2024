@@ -51,6 +51,9 @@ class TestOperations(unittest.TestCase):
     def test_factoriel(self):
         self.assertEqual(calculator.factoriel(4), 24)
 
+    def test_factoriel_start(self):
+        self.assertEqual(calculator.factoriel(0), 1)
+
     def test_maximum(self):
         self.assertEqual(calculator.maximum([1, -4, 200, 47]), 200)
 
