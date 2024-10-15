@@ -7,6 +7,9 @@ class TestOperations(unittest.TestCase):
     def test_addition(self):
         self.assertEqual(calculator.addition(1, 2), 3)
 
+    def test_addition_big(self):
+        self.assertEqual(calculator.addition(1000, 2000), 3000)
+
     def test_soustraction(self):
         self.assertEqual(calculator.soustraction(2, 3), -1)
         self.assertEqual(calculator.soustraction(10, 7), 3)
