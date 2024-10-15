@@ -25,13 +25,12 @@ def quotient(a, b):
 
 # 6. Reste de la division euclidienne
 def reste(a, b):
-    pass
+    return a % b
 
 
 # 7. Retourne le nombre sans tenir compte de son signe
 def valeur_absolue(a):
-    pass
-
+    return abs(a)
 
 # 8. Retourne la valeur au carré
 def carre(a):
