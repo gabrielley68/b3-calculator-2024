@@ -59,11 +59,7 @@ def inverse(a):
 
 
 # 13. Retourne une version triée de la liste
-def tri(l):
-    sorted_list = l[:]
-    sorted_list.sort()
-    return sorted_list
-
+def tri(l): return sorted(l)
 
 # 14. Retourne la factorielle de la valeur
 def factoriel(a):
