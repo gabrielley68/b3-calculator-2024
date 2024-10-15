@@ -43,6 +43,11 @@ class TestOperations(unittest.TestCase):
     def test_tri(self):
         self.assertEqual(calculator.tri([4, 2, 8]), [2, 4, 8])
 
+    def test_tri_immutable(self):
+        test_list = [4, 2, 8]
+        self.assertEqual(calculator.tri(test_list), [2, 4, 8])
+        self.assertEqual(test_list, [4, 2, 8])
+
     def test_factoriel(self):
         self.assertEqual(calculator.factoriel(4), 24)
 
