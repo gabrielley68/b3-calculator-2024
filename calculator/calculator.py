@@ -44,7 +44,7 @@ def racine_carre(a):
 
 
 # 10. Retourne la somme des éléments de la liste
-def somme_liste(l): 
+def somme_liste(l):
     return sum(l)
 
 
