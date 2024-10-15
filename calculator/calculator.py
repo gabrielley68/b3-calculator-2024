@@ -50,12 +50,14 @@ def somme_liste(l):
 
 # 11. Retourne a puissance b
 def puissance(a, b):
-    pass
+    return a ** b
 
 
 # 12. Retourne l'inverse du nombre
 def inverse(a):
-    pass
+    if a == 0:
+        raise ValueError("Cannot divide by zero")
+    return 1 / a
 
 
 # 13. Retourne une version triée de la liste
