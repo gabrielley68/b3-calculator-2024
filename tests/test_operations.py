@@ -40,6 +40,10 @@ class TestOperations(unittest.TestCase):
     def test_inverse(self):
         self.assertEqual(calculator.inverse(5), 1 / 5)
 
+    def test_inverse_by_zero(self):
+        with self.assertRaises(ValueError):
+            calculator.inverse(0)
+
     def test_tri(self):
         self.assertEqual(calculator.tri([4, 2, 8]), [2, 4, 8])
 
