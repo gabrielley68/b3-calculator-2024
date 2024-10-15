@@ -1,3 +1,5 @@
+from math import *
+
 # 1. Addition basique
 def addition(a, b):
     pass
@@ -40,7 +42,7 @@ def carre(a):
 
 # 9. Retourne la racine carré de la valeur
 def racine_carre(a):
-    pass
+    return sqrt(a)
 
 
 # 10. Retourne la somme des éléments de la liste
