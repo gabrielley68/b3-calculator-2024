@@ -7,7 +7,7 @@ def addition(a, b):
 
 # 2. Soustraction basique
 def soustraction(a, b):
-    pass
+    return a - b
 
 
 # 3. Multiplication basique
@@ -41,7 +41,7 @@ def carre(a):
 
 # 9. Retourne la racine carré de la valeur
 def racine_carre(a):
-    pass
+    return math.sqrt(a)
 
 
 # 10. Retourne la somme des éléments de la liste
