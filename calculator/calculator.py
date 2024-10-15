@@ -1,3 +1,5 @@
+import math
+
 # 1. Addition basique
 def addition(a, b):
     pass
@@ -69,8 +71,12 @@ def factoriel(a):
 
 # 15. Retourne la plus grande valeur de la liste
 def maximum(l):
-    pass
+    max_val = l[0]
+    for val in l:
+        if val > max_val:
+            max_val = val
+    return max_val
 
 # 16. Retourne le logarithme (en base de 10) de la valeur
 def logarithme(a):
-    pass
+    return math.log10(a)
