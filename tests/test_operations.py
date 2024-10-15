@@ -9,6 +9,7 @@ class TestOperations(unittest.TestCase):
 
     def test_soustraction(self):
         self.assertEqual(calculator.soustraction(2, 3), -1)
+        self.assertEqual(calculator.soustraction(10, 7), 3)
 
     def test_multiplication(self):
         self.assertEqual(calculator.multiplication(4, 3), 12)
